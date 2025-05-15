@@ -8,6 +8,7 @@ console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos.")
 //Declare uma string e utilize métodos para converter para maiúsculas e minúsculas
 let string = "Hello Word"
 console.log(string.toLowerCase());
+console.log(string.toUpperCase());
 
 //Declare uma variável e verifique se o tipo dela é number.
 let valor = 14;
@@ -17,3 +18,4 @@ console.log(typeof valor);
 let altura = 1.60;
 let peso = 50;
 console.log((peso / (altura * altura)).toFixed(2));
+
